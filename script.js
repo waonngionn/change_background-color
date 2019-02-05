@@ -7,6 +7,10 @@ $(function () {
         var changeBackgroundColor = function (color) {
             $("html").css("background-color", color);
             $("body").css("background-color", color);
+            $("header").css("background-color", color);
+            $("nav").css("background-color", color);
+            $("main").css("background-color", color);
+            $("footer").css("background-color", color);
             $("div").css("background-color", color);
             $("span").css("background-color", color);
             $("td").css("background-color", color);
