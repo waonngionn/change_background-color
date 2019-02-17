@@ -1,5 +1,4 @@
 $(function () {
-    console.log("background-color change")
     $("html").keydown(function (event) {
         var keyCode = event.keyCode;
 
