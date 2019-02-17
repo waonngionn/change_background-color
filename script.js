@@ -1,8 +1,6 @@
 $(function () {
-    console.log("ready");
     $("html").keydown(function (event) {
         var keyCode = event.keyCode;
-        console.log(keyCode);
 
         var changeBackgroundColor = function (color) {
             $("html, body, header, nav, main, footer, div, span, a, td, h1, h2, h3, h4, h5, h6").css("background-color", color);
